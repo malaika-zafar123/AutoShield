@@ -1,5 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
 
 import Home from "./Pages/Home";
@@ -14,7 +13,7 @@ import AudioModification from "./Pages/AudioModification";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
 
       <Header />
 
@@ -52,7 +51,7 @@ function App() {
 
       </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
