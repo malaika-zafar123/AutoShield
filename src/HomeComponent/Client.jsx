@@ -53,18 +53,18 @@ function Client() {
                 </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 m-8">
+            <div className="grid md:grid-cols-2 gap-8 m-8 md:m-25">
 
                 {client.map((item) => (
 
                     <div
                         key={item.id}
-                        className="relative bg-[#1b1d23] border border-gray-700 rounded-2xl p-8 hover:border-[#A07D14]"
+                        className="relative bg-[#1b1d23] border border-gray-700 rounded-2xl px-8 py-8 hover:border-[#A07D14]"
                     >
                         {/* Stars */}
 
-                        <div className="flex gap-1 text- mb-6">
-                            <div className="flex gap-1 text-[#A07D14] mb-6">
+                        <div className="flex gap-1 text-sm mb-6">
+                            <div className="flex  text-[#A07D14] mb-6">
                                 {[...Array(5)].map((_, index) => (
                                     <FontAwesomeIcon
                                         key={index}

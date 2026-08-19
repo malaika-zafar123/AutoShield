@@ -107,17 +107,17 @@ function Gallery() {
         <div>
 <div className="flex flex-wrap gap-3  m-22">
           {categories.map((item) => (
-            <button
-              key={item}
-              onClick={() => setActive(item)}
-              className={`px-6 py-2 rounded-lg font-medium transition duration-300 ${
-                active === item
-                  ? "bg-[#A07D14]  text-black"
-                  : "bg-[#1f1f1f] text-gray-300  hover:text-gray-50"
-              }`}
-            >
-              {item}
-            </button>
+    <button
+  key={item}
+  onClick={() => setActive(item)}
+  className={`px-6 py-2 rounded-lg font-medium transition duration-300 border ${
+    active === item
+      ? "bg-[#A07D14] text-black border-[#A07D14]"
+      : "bg-[#1f1f1f] text-gray-300 border-transparent hover:border-[#A07D14]"
+  }`}
+>
+  {item}
+</button>
           ))}
         </div>
 

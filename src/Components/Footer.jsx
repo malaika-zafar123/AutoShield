@@ -139,21 +139,21 @@ function Footer() {
             <div className="flex gap-4 mb-8">
 
               <a
-                href="#"
+                href=""
                 className="w-12 h-12 rounded-xl border border-gray-700 flex justify-center items-center hover:text-[#a07d14]  duration-300"
               >
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
 
               <a
-                href="#"
+                href=""
                 className="w-12 h-12 rounded-xl border border-gray-700 flex justify-center items-center hover:text-[#a07d14]  duration-300"
               >
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
 
               <a
-                href="#"
+                href=""
                 className="w-12 h-12 rounded-xl border border-gray-700 flex justify-center items-center hover:text-[#a07d14]  duration-300"
               >
                 <FontAwesomeIcon icon={faYoutube} />

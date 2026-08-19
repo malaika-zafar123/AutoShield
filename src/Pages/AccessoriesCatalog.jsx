@@ -345,7 +345,7 @@ function AccessoriesCatalog() {
     <div className="min-h-screen bg-[#0d0d0d]  pt-28">
 <div className="flex justify-center">
 
-      <div className="border border-[#cda731] w-full text-center max-w-md rounded-full px-5 py-2 text-[#e5c66c]  mt-4 md:mb-8">
+      <div className="border border-[#cda731] w-full text-center max-w-md rounded-full px-5 py-2 text-[#e5c66c]  m-4 md:mb-8">
         <FontAwesomeIcon
           icon={faShieldHalved}
           className="text-[#e5c66c] md:text-xs"
@@ -361,7 +361,7 @@ function AccessoriesCatalog() {
       </h2>
       <p className="text-center text-xl text-gray-300 max-w-2xl mx-auto">Browse our portfolio of completed projects. Each vehicle reflects our commitment to precision and excellence.</p>
       <div className="flex justify-center">
-        <div className="relative w-full mt-24 max-w-md">
+        <div className="relative w-full mt-24 m-4 max-w-md">
           <FontAwesomeIcon
             icon={faMagnifyingGlass} className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" />
           <input
@@ -395,7 +395,7 @@ function AccessoriesCatalog() {
 
       {/* Count */}
 
-      <p className="text-gray-300  ml-18 mb-4 mt-8">
+      <p className="text-gray-300  m-4 md:ml-28 md:mb-4  md:mt-8">
         Showing 18
         products in
         <span className="font-bold text-white">
@@ -406,7 +406,7 @@ function AccessoriesCatalog() {
 
       {/* Cards */}
 
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8 ml-18 mr-18">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8 m-4 md:ml-30 md:mr-30">
 
         {filteredProducts.map((item) => (
 

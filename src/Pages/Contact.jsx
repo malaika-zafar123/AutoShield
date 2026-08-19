@@ -36,7 +36,7 @@ function Contact() {
             <p className="text-center text-xl text-gray-300 max-w-2xl mx-auto">
                 Have a question or ready to get started? Reach out and we'll respond within 24 hours.</p>
 
-            <div className="max-w-7xl m-24  grid lg:grid-cols-2 gap-10">
+            <div className="max-w-7xl m-30 justify-center tex-center grid lg:grid-cols-2 gap-10">
 
                 {/* LEFT SIDE */}
 

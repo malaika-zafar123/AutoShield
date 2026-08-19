@@ -76,7 +76,7 @@ function Home() {
 
   return (
     <>
-      <section className="relative mt-16 h-screen overflow-hidden">
+      <section className="relative mt-20 h-screen overflow-hidden">
 
         {/* Background Image */}
 
@@ -96,7 +96,7 @@ function Home() {
 
           {/* Badge */}
 
-          <div className="border border-[#cda731]  rounded-full px-5 py-2 text-[#e5c66c]  mt-4 md:mb-8">
+          <div className="border border-[#cda731]  rounded-full px-5 py-2 text-[#e5c66c]  mt-28 md:mb-8">
             <FontAwesomeIcon
               icon={faShieldHalved}
               className="text-[#e5c66c] md:text-xs"
@@ -105,7 +105,7 @@ function Home() {
 
           {/* Heading */}
 
-          <h1 className="text-3xl md:text-7xl font-bold text-white leading-tight">
+          <h1 className="text-2xl md:text-7xl mt-2 font-bold text-white leading-tight">
 
             {slides[current].title}
 
@@ -119,7 +119,7 @@ function Home() {
 
           {/* Description */}
 
-          <p className="text-gray-300 text-2xl max-w-3xl mt-8 leading-9">
+          <p className="text-gray-300 text-xl max-w-3xl mt-8 leading-9">
 
             {slides[current].desc}
 
@@ -127,13 +127,13 @@ function Home() {
 
           {/* Buttons */}
 
-          <div className="flex md:flex-row flex-col gap-5 mt-10">
+          <div className="flex md:flex-row flex-col gap-5 m-2">
 
-            <button className="bg-[#a07d14] text-lg hover:bg-[#e8c96d] duration-300 px-8 py-4 rounded-xl font-semibold">
+            <button className="bg-[#a07d14] text-sm hover:bg-[#e8c96d] duration-300 px-8 py-4 rounded-xl font-semibold">
               Book Appointment
             </button>
 
-            <button className="border border-[#a07d14] text-[#a07d14]  hover:bg-[#a07d14]  hover:text-black duration-300 px-8 py-4 rounded-xl text-lg font-semibold">
+            <button className="border border-[#a07d14] text-[#a07d14]  hover:bg-[#a07d14]  hover:text-black duration-300 px-8 py-4 rounded-xl text-sm font-semibold">
               Get WhatsApp Quote
             </button>
 
@@ -141,7 +141,7 @@ function Home() {
 
           {/* Bottom Tags */}
 
-          <div className="flex flex-wrap justify-center gap-5 mt-14">
+          <div className="flex flex-wrap justify-center gap-5 m-4">
 
             <span className="bg-white/10 px-5 py-3 rounded-full text-white">
               <FontAwesomeIcon

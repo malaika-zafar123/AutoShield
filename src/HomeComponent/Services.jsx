@@ -55,9 +55,9 @@ function Services() {
   ];
 
   return (
-    <section className="bg-[#0D0D0D]  py-24">
+    <section className="bg-[#0D0D0D]   py-24">
 
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto  px-6">
 
         {/* Heading */}
 
